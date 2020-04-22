@@ -1,0 +1,5 @@
+{"dev":[{"platform":"Linux armv8l","browser":"Chrome\/74.0.3729.136","cores":"4","ram":"2","vendor":"ARM","render":"Mali-T720","ip":"2402:8100:2880:7266::1","ht":"732","wd":"412","os":"Android 9"}]}
+Victim Public IP: 2402:8100:2880:7266::1
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-J400F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36
+
+Current logged in user: u0_a172
