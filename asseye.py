@@ -21,7 +21,6 @@ RED, WHITE, CYAN, GREEN, DEFAULT = '\033[91m', '\033[46m', '\033[36m', '\033[1;3
 installGetText()
 languageSelector()
 checkConnection()
-verCheck()
 checkPHP()
 checkLocalxpose()
 checkNgrok()
