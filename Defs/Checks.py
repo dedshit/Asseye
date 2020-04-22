@@ -65,8 +65,7 @@ def verCheck():
             print("{1}[{0}+{1}] {0}[Current]- {2}v {3}\n{1}[{0}+{1}] {0}[Available]- {2}v.{4}".format(GREEN, RED, DEFAULT, ver_current, github_ver))
             sleep(5)
             system("clear")
-    else:
-        print('{1}[{0}^{1}] {0}Failed To Get Update [Status:{1}{3}{0}]\n'.format(GREEN, RED, DEFAULT))
+    
 
      
 def checkPHP(): # PHP installation Check
