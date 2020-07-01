@@ -162,20 +162,6 @@ def checkLocalxpose():  # Localxpose check
         system('mv loclx-linux-* loclx && mv loclx Server/')
         system('clear')
 
-
-def checkbinaryLT():  # LocalTunnel Binary File check.
-    if path.isfile('Server/lt') == False:  # Is LocalTunnel downloaded?
-        print('[*] LocalTunnel Binary File Not Found !!')
-        print('[*] Downloading LocalTunnel...')
-        url = "https://www.wa4e.com/downloads/lt-linux.zip"
-        req = requests.get(url)
-        with open("lt-linux.zip", "wb") as file_obj:
-            file_obj.write(req.content)
-        system("unzip lt-linux.zip && rm lt-linux.zip")
-        system("mv lt* lt && mv lt Server/lt ")
-        system('clear')
-
-
 def checkLT():  # Ask to install npm,node.js,localtunnel(packages).
     system('cd Server && chmod 777 * -R')
     if 256 == system('which lt > /dev/null'):
