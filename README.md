@@ -1,4 +1,4 @@
-FUCK_OFF
+☠☠☠☠
 
                   ☠   RIP HIDDENEYE   ☠
 
